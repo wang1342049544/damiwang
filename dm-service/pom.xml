@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dm-parent</artifactId>
+        <groupId>com.hdax.dm</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dm-service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>dm-consumer</module>
+        <module>dm-provider</module>
+    </modules>
+
+    <!--    无论是提供者还是消费者都是web应用 http请求 所以必须添加下边依赖-->
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+<!--    eureka 注册中心-->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    </dependency>
+<!--    提供者和消费者都需要引入实体类-->
+    <dependency>
+        <groupId>com.hdax.dm</groupId>
+        <artifactId>dm-common-entity</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+<!--    Config Client 配置  gitee配置地址-->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-config-client</artifactId>
+    </dependency>
+    
+</dependencies>
+
+</project>

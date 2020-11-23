@@ -1,0 +1,46 @@
+配置中心
+Spring Cloud Config是Spring Cloud微服务体系中的配置中心，是微服务中不可或缺的
+一部分，其能够很好地将程序中配置日益增多的各种功能的开关、参数的配置、服务器地
+址，配置修改后实时生效，灰度发布，分环境、分集群管理配置等进行全面的集中化管
+理，有利于系统的配置管理和维护
+
+
+Spring Cloud Config配置中心概述
+什么是配置中心
+1. 配置中心的额由来
+在集中式开发时代，配置文件已经基本足够了，因为那时配置的管理通常不会成为一个很
+大的问题。但是在互联网时代，应用都是分布式系统，部署在N台服务器上，想要去线上
+一台台地重启机器肯定不靠谱，并且维护成本也很高，所以配置中心应运而生。配置中心
+被用作集中管理不同环境（Dev、Test、Stage、Prod）和不同集群配置，以及在修改配
+置后将实时动态推送到应用上进行刷新。
+Spring Cloud Config配置中心概述
+什么是配置中心
+1. 配置中心的额由来
+2. 配置中心应具备的功能
+Spring Cloud Config
+1. Spring Cloud Config概述
+2. Git版工作原理
+Spring Cloud Config入门案例
+1. Config Server配置
+2. Config Client 配置
+刷新配置中心信息
+手动刷新操作
+结合 Spring Cloud Bus 热刷新
+总结
+2. 配置中心应具备的功能
+那么配置中心的定位是什么呢？它应该具备如下功能：
+接下来看看这个支撑体系，大致分为两类，如图：
+Spring Cloud Config
+1. Spring Cloud Config概述
+Spring Cloud Config是一个集中化外部配置的分布式系统，由服务端和客户端组成。它不
+依赖于注册中心，是一个独立的配置中心。Spring Cloud Config支持多种存储配置信息的
+形式，目前主要有jdbc、Valut、Native、svn、git，其中默认为git。接下来开始学习
+Spring Cloud Config配置中心的构建和客户端的使用。
+2. Git版工作原理
+Open API
+业务无关性
+配置生效监控
+一致性K-V存储
+统一配置实时推送
+配合灰度与更新
+配置全局恢复、备

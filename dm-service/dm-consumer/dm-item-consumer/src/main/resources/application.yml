@@ -1,0 +1,34 @@
+server:
+  port: 8031
+spring:
+  application:
+    name: dm-item-consumer
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+  elasticsearch:
+    rest:
+      uris: ["192.168.42.100:9200"]
+  main:
+    allow-bean-definition-overriding: true
+
+management:
+  health:
+    refresh:
+      enabled: false
+
+
+    #由于  配置中心 github 配置了 所以 注释掉   必须联网
+hystrix:
+  command:
+    default:  #default全局有效，service id指定应用有效
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制,为true,则超时作为熔断根据
+          enabled: false
+        isolation:
+          thread:
+           timeoutInMilliseconds: 10000 #断路器超时时间，默认1000ms
+#开启熔断器
+feign.hystrix.enabled: true

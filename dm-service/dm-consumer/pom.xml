@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dm-service</artifactId>
+        <groupId>com.hdax.dm</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dm-consumer</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>dm-item-consumer</module>
+        <module>dm-user-consumer</module>
+        <module>dm-scheduler-consumer</module>
+        <module>dm-order-consumer</module>
+    </modules>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hdax.dm</groupId>
+            <artifactId>dm-common-client</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hdax.dm</groupId>
+            <artifactId>dm-common-vo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+<!--        熔断器-->
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-javanica</artifactId>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>com.hdax.dm</groupId>
+            <artifactId>dm-common-vo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+    </dependencies>
+</project>

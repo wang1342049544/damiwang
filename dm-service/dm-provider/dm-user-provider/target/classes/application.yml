@@ -1,0 +1,9 @@
+
+database:
+     name: dm_user
+server:
+  port: 8014
+spring:
+  application:
+    name: dm-user-provider
+

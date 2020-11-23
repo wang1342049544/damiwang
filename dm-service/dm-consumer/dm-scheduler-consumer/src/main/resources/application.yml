@@ -1,0 +1,10 @@
+server:
+  port: 8053
+spring:
+  application:
+    name: dm-scheduler-consumer
+
+
+#feign:
+#  hystrix:
+#    enabled: true   #开启熔断

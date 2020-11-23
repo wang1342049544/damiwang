@@ -1,0 +1,35 @@
+server:
+  port: 8022
+spring:
+  application:
+    name: dm-order-consumer
+    #由于  配置中心 github 配置了 所以 注释掉   必须联网
+  redis:
+    port: 6379
+    host: 127.0.0.1  #192.168.42.100
+    timeout: 3000
+    lettuce:
+      pool:
+        #连接池最大链接数
+        max-active: 8
+        #连接池最大空闲时间
+        max-idle: 8
+        #连接池最小空闲时间
+        min-idle: 0
+        #连接池最大空闲连接时间  默认-1
+        max-wait: -1
+  rabbitmq:
+    host:     127.0.0.1  #192.168.42.100
+
+# 日志
+logging:
+  # 输出级别
+  level:
+    root: info
+  file:
+    # 指定路径
+    path: redis-logs
+    # 最大保存天数
+    max-history: 7
+    # 每个文件最大大小
+    max-size: 5MB

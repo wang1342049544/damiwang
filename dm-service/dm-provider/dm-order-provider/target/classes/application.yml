@@ -1,0 +1,10 @@
+database:
+  name: dm_order
+server:
+  port: 8018
+spring:
+  devtools:
+    restart:
+      additional-paths: src/main/resources
+  application:
+    name: dm-order-provider

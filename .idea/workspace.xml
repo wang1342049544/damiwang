@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e187d784-cc44-44c9-97d8-87d0829ab289" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/src/main/java/com/hdax/dm/client/DmUserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/src/main/java/com/hdax/dm/client/ImageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/src/main/java/com/hdax/dm/client/ItemClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/src/main/java/com/hdax/dm/client/OderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/src/main/java/com/hdax/dm/client/SchedulerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/target/classes/com/hdax/dm/client/DmUserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/target/classes/com/hdax/dm/client/ImageClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/target/classes/com/hdax/dm/client/ItemClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/target/classes/com/hdax/dm/client/OderClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/target/classes/com/hdax/dm/client/SchedulerClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/carouse/Carouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/goods/DmEsItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/goods/DmEsItemReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/goods/Dmarea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/item/DmCinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/item/DmImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/item/DmItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/item/DmItemComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/item/DmItemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/order/DmOrderLinkUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/order/OrderConditionVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/order/order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/order/orderlike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/scheduler/DmScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/scheduler/DmSchedulerSeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/scheduler/DmSchedulerSeatPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/user/DmLinkUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/src/main/java/com/hdax/dm/entity/user/DmUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/META-INF/dm-common-entity.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/carouse/Carouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/goods/DmEsItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/goods/DmEsItemReturn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/goods/Dmarea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/item/DmCinema.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/item/DmImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/item/DmItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/item/DmItemComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/item/DmItemType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/order/DmOrderLinkUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/order/OrderConditionVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/order/order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/order/orderlike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/scheduler/DmScheduler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/scheduler/DmSchedulerSeat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/scheduler/DmSchedulerSeatPrice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/user/DmLinkUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/classes/com/hdax/dm/entity/user/DmUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-execption/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-execption/src/main/java/com/hdax/dm/DmEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-execption/src/main/java/com/hdax/dm/ItemExe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-execption/target/classes/com/hdax/dm/DmEx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-execption/target/classes/com/hdax/dm/ItemExe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-utils/src/main/java/com/hdax/dm/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-utils/src/main/java/com/hdax/dm/UserAgentUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-utils/target/classes/com/hdax/dm/MD5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-utils/target/classes/com/hdax/dm/UserAgentUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/CommoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/DmCinemaAreaNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/DmItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/DmItemTypeSortResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/DmItemsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/DmUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/FloorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/ItemCommentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/ItemRecommendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/ItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/ItemsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/ProgramMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/VoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/es/AreaItemRowsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/es/AreaItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/es/EsItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/es/ItemInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/es/ItemRowsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/itemDetaileResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/ScheduleIdBySeatResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/ScheduleIdSeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/ScheduleIdVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/SchedulerByItemIdVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/SchedulerPriceByItemIdVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/SchedulerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/SeatInfoListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/SeatInfoListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/SeatPriceListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/juchang/SeatPriceListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/ltemTypeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/order/ByOrderNoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/order/CreateOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/order/OrderInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/order/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/order/PayOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/order/ProgramMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/scheduler/paiqi/itemschedulerPriceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/scheduler/paiqi/itemschedulerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/user/DmLinkUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/user/DmUserInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/user/DmUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/user/UserCommonTicketRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/user/UserCommonTicketResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/user/UserInformationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/user/UserInformationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/src/main/java/com/hdax/dm/vo/user/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/META-INF/dm-common-vo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/CommoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/DmCinemaAreaNameResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/DmItemResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/DmItemTypeSortResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/DmItemsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/DmUserResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/FloorResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/ItemCommentResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/ItemRecommendResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/ItemResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/ItemsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/ProgramMoney.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/VoUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/es/AreaItemRowsVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/es/AreaItemVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/es/EsItemResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/es/ItemInfoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/es/ItemRowsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/itemDetaileResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/ScheduleIdBySeatResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/ScheduleIdSeat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/ScheduleIdVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/SchedulerByItemIdVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/SchedulerPriceByItemIdVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/SchedulerResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/SeatInfoListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/SeatInfoListVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/SeatPriceListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/juchang/SeatPriceListVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/ltemTypeResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/order/ByOrderNoVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/order/CreateOrderRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/order/OrderInfoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/order/OrderResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/order/PayOrderResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/order/ProgramMoney.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/scheduler/paiqi/itemschedulerPriceResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/scheduler/paiqi/itemschedulerResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/user/DmLinkUserResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/user/DmUserInfoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/user/DmUserResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/user/UserCommonTicketRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/user/UserCommonTicketResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/user/UserInformationRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/user/UserInformationResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/classes/com/hdax/dm/vo/user/UserResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/dm-common-vo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-config-server/src/main/java/com/hdax/dm/DmConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-config-server/src/test/java/简介" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-config-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-config-server/target/classes/com/hdax/dm/DmConfigServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/src/main/java/com/hdax/dm/DmEurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/src/main/java/com/hdax/dm/config/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/src/main/java/com/hdax/dm/config/WebSecurityConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/src/test/java/提示" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/target/classes/com/hdax/dm/DmEurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/target/classes/com/hdax/dm/config/AlipayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/target/classes/com/hdax/dm/config/WebSecurityConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-zuul/src/main/java/com/hdax/dm/DmZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-zuul/src/main/java/com/hdax/dm/juayu/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-zuul/target/classes/META-INF/dm-zuul.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-zuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-zuul/target/classes/com/hdax/dm/DmZuulApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/dm-zuul/target/classes/com/hdax/dm/juayu/CorsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-env/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/DmltemConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/controller/CarouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/controller/DmOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/controller/ItemTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/controller/TodayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/es/Es.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/CarouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/DmOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/EsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/ItemTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/TodayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/META-INF/dm-item-consumer.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/DmltemConsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/controller/CarouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/controller/DmOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/controller/ItemTypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/controller/TodayController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/es/Es.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/service/CarouseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/service/DmOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/service/EsService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/service/EsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/service/ItemTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/classes/com/hdax/dm/service/TodayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/DmOrderConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/test/RedisDistributedLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/test/text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/util/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/resources/testtSest.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/DmOrderConsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/service/OrderService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/test/RedisDistributedLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/test/text.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/util/AlipayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/util/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/util/RedisUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/com/hdax/dm/util/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/target/classes/testtSest.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/src/main/java/com/hdax/dm/DmSchedulerCounsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/src/main/java/com/hdax/dm/controller/schedulerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/src/main/java/com/hdax/dm/service/SchedulerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/src/main/java/com/hdax/dm/service/schedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/target/classes/com/hdax/dm/DmSchedulerCounsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/target/classes/com/hdax/dm/controller/schedulerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/target/classes/com/hdax/dm/service/SchedulerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer/target/classes/com/hdax/dm/service/schedulerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/java/com/hdax/dm/DmUserConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/java/com/hdax/dm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/java/com/hdax/dm/rabbitmq/RabbitConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/java/com/hdax/dm/service/TokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/java/com/hdax/dm/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/java/com/hdax/dm/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/java/com/hdax/dm/util/SmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/META-INF/dm-user-consumer.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/com/hdax/dm/DmUserConsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/com/hdax/dm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/com/hdax/dm/rabbitmq/RabbitConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/com/hdax/dm/service/TokenServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/com/hdax/dm/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/com/hdax/dm/util/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/target/classes/com/hdax/dm/util/SmsUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/src/main/java/com/hdax/dm/DmBaseProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/src/main/java/com/hdax/dm/dao/CarouseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/src/main/java/com/hdax/dm/dao/ImageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/src/main/java/com/hdax/dm/service/DmImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/target/classes/com/hdax/dm/DmBaseProviderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/target/classes/com/hdax/dm/dao/CarouseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/target/classes/com/hdax/dm/dao/ImageDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/target/classes/com/hdax/dm/service/DmImageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/DmltemProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/dao/DmCinemaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/dao/DmEsItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/dao/DmItemCommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/dao/DmltemTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/dao/ItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/service/impl/DmCinemaRestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/service/impl/DmEsItemRestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/service/impl/DmItemRestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/service/impl/DmitemCommentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/service/impl/DmltemTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/META-INF/dm-item-provider.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/DmltemProviderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/dao/DmCinemaDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/dao/DmEsItemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/dao/DmItemCommentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/dao/DmltemTypeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/dao/ItemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/service/impl/DmCinemaRestServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/service/impl/DmEsItemRestServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/service/impl/DmEsItemRestServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/service/impl/DmItemRestServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/service/impl/DmitemCommentImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/classes/com/hdax/dm/service/impl/DmltemTypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/src/main/java/com/hdax/dm/DmOrderProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/src/main/java/com/hdax/dm/dao/DmOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/src/main/java/com/hdax/dm/dao/DmOrderLike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/src/main/java/com/hdax/dm/service/DmOrderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/target/classes/com/hdax/dm/DmOrderProviderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/target/classes/com/hdax/dm/dao/DmOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/target/classes/com/hdax/dm/dao/DmOrderLike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider/target/classes/com/hdax/dm/service/DmOrderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/src/main/java/com/hdax/dm/DmschedulerProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/src/main/java/com/hdax/dm/dao/schedulerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/src/main/java/com/hdax/dm/dao/schedulerSeatDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/src/main/java/com/hdax/dm/dao/schedulerSeatPriceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/src/main/java/com/hdax/dm/service/DmSchedulerSeatPriceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/src/main/java/com/hdax/dm/service/DmSchedulerSeatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/src/main/java/com/hdax/dm/service/DmSchedulerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/META-INF/dm-scheduler-provider.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/com/hdax/dm/DmschedulerProviderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/com/hdax/dm/dao/schedulerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/com/hdax/dm/dao/schedulerSeatDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/com/hdax/dm/dao/schedulerSeatPriceDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/com/hdax/dm/service/DmSchedulerSeatPriceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/com/hdax/dm/service/DmSchedulerSeatServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider/target/classes/com/hdax/dm/service/DmSchedulerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/src/main/java/com/hdax/dm/DmUserProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/src/main/java/com/hdax/dm/dao/DmLinkUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/src/main/java/com/hdax/dm/dao/DmUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/src/main/java/com/hdax/dm/service/DmUserRestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/target/classes/META-INF/dm-user-provider.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/target/classes/com/hdax/dm/DmUserProviderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/target/classes/com/hdax/dm/dao/DmLinkUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/target/classes/com/hdax/dm/dao/DmUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider/target/classes/com/hdax/dm/service/DmUserRestServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/dm-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dm-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-21.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-22.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-23.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-23.1.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-23.2.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-23.3.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-23.4.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-23.5.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-23.6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-23.7.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-logs/spring.log.2020-11-23.8.gz" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dm_item@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dm_item@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dm_item@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dm_item: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Users\root\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jXjuGykUOBv6KOANYm8hPnc4NR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15148515" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hdax.dm.test" />
+      <recent name="com.hdax.dm.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Desktop\dm-parent17\dm-service\dm-consumer\dm-order-consumer\src\main\java\com\hdax\dm\test" />
+      <recent name="C:\Users\root\Desktop\dm-parent15\dm-common\dm-common-vo\src\main\java\com\hdax\dm\vo\user" />
+      <recent name="C:\Users\root\Desktop\dm-parent15\dm-common\dm-common-entity\src\main\java\com\hdax\dm\entity" />
+      <recent name="C:\Users\root\Desktop\dm-parent15\dm-common\dm-common-vo\src\main\java\com\hdax\dm\vo" />
+      <recent name="C:\Users\root\Desktop\dm-parent15\dm-service\dm-consumer\dm-item-consumer\src\main\java\com\hdax\dm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdax.dm.util" />
+      <recent name="com.hdax.dm.config" />
+      <recent name="com.hdax.dm.entity.order" />
+      <recent name="com.hdax.dm.vo.order" />
+      <recent name="com.hdax.dm.vo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Desktop\dm-parent17\dm-service\dm-consumer\dm-order-consumer\src\main\resources" />
+      <recent name="C:\Users\root\Desktop\dm-parent15\dm-service\dm-provider\dm-order-provider\src\main\resources" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 52 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DmUserConsumerApplication">
+    <configuration name="DmBaseProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dm-base-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdax.dm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdax.dm.DmBaseProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DmOrderConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dm-order-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdax.dm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdax.dm.DmOrderConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DmSchedulerCounsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dm-scheduler-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdax.dm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdax.dm.DmSchedulerCounsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DmUserConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dm-user-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdax.dm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdax.dm.DmUserConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DmUserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dm-user-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdax.dm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdax.dm.DmUserProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DmltemConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dm-item-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdax.dm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdax.dm.DmltemConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DmOrderConsumerApplication" />
+        <item itemvalue="Spring Boot.DmUserConsumerApplication" />
+        <item itemvalue="Spring Boot.DmSchedulerCounsumerApplication" />
+        <item itemvalue="Spring Boot.DmltemConsumerApplication" />
+        <item itemvalue="Spring Boot.DmUserProviderApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.23497267" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ContributorNode@30c2023" type="d2cb1801:ServiceModel$ContributorNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ContributorNode@30c2023" type="d2cb1801:ServiceModel$ContributorNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f7ecfeb7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ContributorNode@30c2023" type="d2cb1801:ServiceModel$ContributorNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f7ecfeb7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ad2650a6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+        <option name="groupByContributor" value="true" />
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e187d784-cc44-44c9-97d8-87d0829ab289" name="Default Changelist" comment="" />
+      <created>1603957552436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603957552436</updated>
+      <workItem from="1603957559043" duration="9085000" />
+      <workItem from="1603969008851" duration="12705000" />
+      <workItem from="1604029127613" duration="5490000" />
+      <workItem from="1604041891238" duration="12421000" />
+      <workItem from="1604062067082" duration="4535000" />
+      <workItem from="1604103812210" duration="16284000" />
+      <workItem from="1604276704983" duration="16881000" />
+      <workItem from="1604300236095" duration="13291000" />
+      <workItem from="1604375539667" duration="47418000" />
+      <workItem from="1604486176089" duration="27672000" />
+      <workItem from="1604540914173" duration="10526000" />
+      <workItem from="1604555043750" duration="14303000" />
+      <workItem from="1604571622349" duration="12823000" />
+      <workItem from="1604593189129" duration="21884000" />
+      <workItem from="1604662348013" duration="12466000" />
+      <workItem from="1604904832064" duration="2687000" />
+      <workItem from="1604908417146" duration="9716000" />
+      <workItem from="1605067800953" duration="461000" />
+      <workItem from="1605071736458" duration="84954000" />
+      <workItem from="1605358942206" duration="791000" />
+      <workItem from="1605360020746" duration="133735000" />
+      <workItem from="1605791789059" duration="44316000" />
+      <workItem from="1605879010968" duration="9494000" />
+      <workItem from="1605926374986" duration="982000" />
+      <workItem from="1605927720639" duration="16285000" />
+      <workItem from="1605956059093" duration="45566000" />
+      <workItem from="1606046175813" duration="682000" />
+      <workItem from="1606050831403" duration="469000" />
+      <workItem from="1606054272907" duration="25519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.lua" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/CarouseService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/CarouseService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/CarouseService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/CarouseService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/service/impl/DmltemTypeServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/service/EsService.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer/src/main/java/com/hdax/dm/controller/UserController.java</url>
+          <line>290</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider/src/main/java/com/hdax/dm/service/impl/DmEsItemRestServiceImpl.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer/src/main/java/com/hdax/dm/controller/ItemTypeController.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/service/OrderService.java</url>
+          <line>348</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/service/OrderService.java</url>
+          <line>349</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/test/RedisDistributedLock.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer/src/main/java/com/hdax/dm/service/OrderService.java</url>
+          <line>390</line>
+          <properties class="com.hdax.dm.service.OrderService" method="zhiFuBao">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="dmSchedulerSeat1" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

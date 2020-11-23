@@ -1,0 +1,40 @@
+
+#因为链接了gitee等 所以 数据库 配置 包括 mybatis 和  eureka注册中心 都可以托管到git上  在这里就可以注释
+#gitee的链接地址再 dm-config-server
+
+
+
+#指定一个名字 因为gitee里边数据名称不全都是一样的
+database:
+     name: dm_item
+
+#server
+server:
+  port: 8034
+spring:
+  application:
+    name: dm-item-provider
+
+
+    #链接数据库
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/${database.name}?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#    username: root
+#    password: 123456
+#    driver-class-name: com.mysql.jdbc.Driver
+
+    #eureka 注册中心
+#eureka:
+#  client:
+#    service-url:
+#      # 你会发现配置一样 复制粘贴改起来麻烦 所以引入配置中心
+#      defaultZone: http://admin:123456@localhost:9001/eureka
+
+
+
+
+#mybatis-pils的
+#mybatis-plus:
+#  configuration:
+#    map-underscore-to-camel-case: false #是否驼峰
+#  type-aliases-package: com.hdax.dm.entity

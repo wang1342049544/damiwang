@@ -1,0 +1,24 @@
+#端口号
+server:
+  port: 9001
+#spring配置
+spring:
+  application:
+    name: dm-eureka-server
+    #-安全校验
+  security:
+    user:
+      name: admin
+      password: 123456 #这个密码可以暴漏 因为注册中心不对外
+
+#   eureka注册中心配置
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    service-url:
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka #引用变量
+    fetch-registry: false #是否将自己注册进去
+    register-with-eureka: false  #将自己抓取进去
+
+#-安全校验

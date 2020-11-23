@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-common/dm-common-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-common/dm-common-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-common/dm-common-execption" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-common/dm-common-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-common/dm-common-vo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-env" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-env/dm-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-env/dm-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-env/dm-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-consumer/dm-item-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-consumer/dm-order-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-consumer/dm-scheduler-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-consumer/dm-user-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-provider/dm-base-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-provider/dm-item-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-provider/dm-order-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-provider/dm-scheduler-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dm-service/dm-provider/dm-user-provider" charset="UTF-8" />
+  </component>
+</project>

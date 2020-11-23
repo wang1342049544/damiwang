@@ -1,0 +1,37 @@
+
+spring:
+  application:
+    name: dm-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123456@localhost:9001/eureka
+  #网关 路由
+  #路由 控制消费者 注意路径的问题   前端路径是否一致  你所在的后端 消费者名称是否一致
+zuul:
+  routes:
+    dm-user-consumer:
+      path: /api/user/**
+    dm-item-consumer:
+      path: /api/item/**
+    dm-scheduler-consumer:
+      path: /api/desc/**
+    dm-order-consumer:
+      path: /api/order/**
+
+    #网关的时间
+  host:
+     connect-timeout-millis: 10000
+     socket-timeout-millis:  60000
+ribbon:
+ ReadTimeout: 60000 #服务请求处理超时时间（毫秒）
+ Connectimeout: 60000 #服务请求连接超时时间（毫秒）
+# 需要忽略的头部信息，不在传播到其他服务 跨域配置
+#  sensitive-headers: Access-Control-Allow-Origin
+#  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+
+
+
+
+server:
+  port: 7001

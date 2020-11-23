@@ -1,0 +1,9 @@
+#第一优先级  bootstrap启动的意思  先启动这个配置文件
+#替代你在网页测试的地址及  http://localhost:8001/common-mybatis/dev
+spring:
+  cloud:
+    config:
+     label: master #git分值名称,默认主分支
+     uri:  http://localhost:8001/ #配置中心地址
+     name: common-eureka #远程仓库文件名称
+     profile: dev #

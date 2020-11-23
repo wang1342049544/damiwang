@@ -1,0 +1,17 @@
+
+#因为链接了gitee等 所以 数据库 配置 包括 mybatis 和  eureka注册中心 都可以托管到git上  在这里就可以注释
+#gitee的链接地址再 dm-config-server
+
+
+
+#指定一个名字 因为gitee里边数据名称不全都是一样的
+database:
+     name: dm_base
+
+#server
+server:
+  port: 8024
+spring:
+  application:
+    name: dm-base-provider
+

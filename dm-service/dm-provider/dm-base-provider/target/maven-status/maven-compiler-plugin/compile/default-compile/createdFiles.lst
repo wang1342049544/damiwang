@@ -1,0 +1,3 @@
+com\hdax\dm\DmBaseProviderApplication.class
+com\hdax\dm\service\DmImageServiceImpl.class
+com\hdax\dm\dao\ImageDao.class

@@ -1,0 +1,7 @@
+database:
+  name: dm_scheduler
+server:
+  port: 8055
+spring:
+  application:
+    name: dm-scheduler-provider

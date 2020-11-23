@@ -1,0 +1,15 @@
+server:
+    port: 8001 #微服务端口号
+spring:
+    cloud:
+      config:
+       server:
+        git:
+          uri: https://gitee.com/wangzheng1342049544/dm-1902.git     #远程gitee仓库地址
+#          uri: https://github.com/wang1342049544/dm.git     #远程github仓库地址
+          username: 1342049544@qq.com    #远程git仓库帐号
+          password: wang15028028419  #远程git仓库密码
+          search-paths: repos  #远程仓库配置文件所在文件夹
+    application:
+        name: dm-config-server  #配置中心微服务名称
+

@@ -1,0 +1,4 @@
+com\hdax\dm\BaseEntity.class
+com\hdax\dm\entity\DmImage.class
+com\hdax\dm\entity\DmItemType.class
+com\hdax\dm\entity\DmItem.class

@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      label: master #git分值名称,默认主分支
+      uri: http://localhost:8001 #配置中心地址
+      name: common-mybatis,common-eureka #远程仓库文件名称
+      profile: dev # 分支文件类型
